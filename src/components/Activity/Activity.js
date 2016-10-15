@@ -1,7 +1,7 @@
-// For local development remove !
-require('./styles.css!');
+//-- For local development remove !
+import './styles.css!';
 
-module.exports = class Activity {
+export default class Activity {
   constructor (activity) {
     this._activity = activity;
   }
